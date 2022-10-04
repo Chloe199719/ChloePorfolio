@@ -228,6 +228,7 @@ main section {
   background-color: rgba(174, 19, 88, 255);
   border: none;
   color: white;
+  height: 50px;
 }
 .portfolio .project a {
   justify-items: center;
