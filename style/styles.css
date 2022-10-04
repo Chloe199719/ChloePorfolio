@@ -16,9 +16,9 @@ body {
   /* background-color: rgba(168, 50, 162, 0.5); */
   display: grid;
   grid-template:
-    'header header header' 100px
-    'main main main' 1fr
-    'footer footer footer' 100px/
+    "header header header" 100px
+    "main main main" 1fr
+    "footer footer footer" 100px/
     20% 1fr 20%;
   /* height: 100vh; */
   grid-gap: 50px;
@@ -51,7 +51,7 @@ body {
   display: grid;
   place-items: center;
   font-size: 5rem;
-  font-family: 'Comforter Brush', cursive;
+  font-family: "Comforter Brush", cursive;
   color: rgba(255, 90, 173, 0.8);
   margin-left: 50px;
 }
@@ -104,8 +104,8 @@ main section {
 .about-me {
   display: grid;
   grid-template:
-    'title title'
-    'text image'/
+    "title title"
+    "text image"/
     1fr 1fr;
   padding: 50px;
   background-color: white;
@@ -129,12 +129,12 @@ main section {
 .about-me .main-text p {
   padding: 10px;
   font-size: 22px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 .about-me .second-title {
   padding: 10px;
   font-weight: bold;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   font-weight: 800;
   font-size: 40px;
 }
@@ -146,7 +146,7 @@ main section {
 .about-me .skils li {
   list-style-type: disc;
   padding: 5px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 .about-me .chloe-img {
   grid-area: image;
@@ -160,15 +160,15 @@ main section {
 .experince {
   display: grid;
   grid-template:
-    'title2' 100px
-    'text' 1fr/
+    "title2" 100px
+    "text" 1fr/
     1fr;
   background-color: white;
   padding: 50px;
 }
 .experince .main-text {
   padding: 20px 100px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   font-size: 20px;
   grid-area: text;
 }
@@ -210,7 +210,7 @@ main section {
   padding: 30px;
   display: grid;
   font-size: 20px;
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 .portfolio .project h4 {
   font-size: 35px;
@@ -255,4 +255,10 @@ main section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  padding: 50px;
+}
+.socials .social-media {
+  display: grid;
+  place-items: center;
+  /* border: 1px dotted black; */
 }
