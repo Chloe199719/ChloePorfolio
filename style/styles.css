@@ -203,7 +203,7 @@ main section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  /* grid-auto-rows: 600px; */
+  grid-auto-rows: 800px;
 }
 .portfolio .project {
   border: solid #ae1358 8px;
@@ -212,6 +212,7 @@ main section {
   display: grid;
   font-size: 20px;
   font-family: "Nanum Myeongjo", serif;
+  grid-template-rows: auto 1fr auto;
 }
 .portfolio .project h4 {
   font-size: 35px;
@@ -220,15 +221,22 @@ main section {
 .portfolio .project p {
   padding-bottom: 20px;
 }
+.portfolio .project .readmore {
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+}
 .portfolio .project button {
   padding: 10px 0;
   margin: 20px 0;
+  width: 100%;
   margin-bottom: 10px;
   border-radius: 5px;
   background-color: rgba(174, 19, 88, 255);
   border: none;
   color: white;
   height: 50px;
+  margin-top: auto;
 }
 .portfolio .project a {
   justify-items: center;
